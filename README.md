@@ -9,8 +9,7 @@ The data for this project was sourced from the Freddie Mac website, consisting o
 The goal of this project is to solve a binary classification problem, where the objective is to predict whether a loan will default (1) or not (0). The model is designed to identify high-risk loans to help financial institutions mitigate the risk of defaults.
 
 ### Key Technologies and Tools Used:
-### Deep Learning: 
-An Artificial Neural Network (ANN) was employed for predicting loan defaults. The neural network architecture was trained to capture complex patterns in the data.
+**Deep Learning:** An Artificial Neural Network (ANN) was employed for predicting loan defaults. The neural network architecture was trained to capture complex patterns in the data.
 ### Data Processing: 
 Extensive data preprocessing was carried out, including cleaning the data, performing feature engineering, and applying feature scaling to improve model performance.
 ### Outlier Detection: 
