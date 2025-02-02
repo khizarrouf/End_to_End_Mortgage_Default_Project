@@ -10,16 +10,11 @@ The goal of this project is to solve a binary classification problem, where the 
 
 ### Key Technologies and Tools Used:
 **Deep Learning:** An Artificial Neural Network (ANN) was employed for predicting loan defaults. The neural network architecture was trained to capture complex patterns in the data.
-### Data Processing: 
-Extensive data preprocessing was carried out, including cleaning the data, performing feature engineering, and applying feature scaling to improve model performance.
-### Outlier Detection: 
-Outliers were detected and removed using an unsupervised machine learning algorithm, Scalable Unsupervised Outlier Detection (SUOD), which helped improve the quality and robustness of the model.
-### Web Framework: 
-FastAPI was utilized to deploy the trained model locally.
-### Model Interpretability: 
-SHAP (Shapley Additive Explanations) was employed to enhance the interpretability of the model by explaining the contributions of each feature to the final predictions.
-### Model Performance Goals:
-The primary goal of the model is to minimize false negatives (i.e., incorrectly classifying defaulting loans as non-defaulting). Another key performance metric is the ROC-AUC (Receiver Operating Characteristic - Area Under Curve), which provides insight into the model's ability to distinguish between the two classes (default vs. non-default) across various decision thresholds.
+**Data Processing:** Extensive data preprocessing was carried out, including cleaning the data, performing feature engineering, and applying feature scaling to improve model performance.
+**Outlier Detection:** Outliers were detected and removed using an unsupervised machine learning algorithm, Scalable Unsupervised Outlier Detection (SUOD), which helped improve the quality and robustness of the model.
+**Web Framework:** FastAPI was utilized to deploy the trained model locally.
+**Model Interpretability:** SHAP (Shapley Additive Explanations) was employed to enhance the interpretability of the model by explaining the contributions of each feature to the final predictions.
+**Model Performance Goals:** The primary goal of the model is to minimize false negatives (i.e., incorrectly classifying defaulting loans as non-defaulting). Another key performance metric is the ROC-AUC (Receiver Operating Characteristic - Area Under Curve), which provides insight into the model's ability to distinguish between the two classes (default vs. non-default) across various decision thresholds.
 
 ### Key Considerations:
 Class Imbalance: One of the significant challenges in this project was the class imbalance, as there are significantly more non-defaulting loans than defaulting loans. To address this, techniques such as class weighting and data stratification were employed to ensure the model had a balanced representation of both classes during training.
