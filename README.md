@@ -1,6 +1,6 @@
 # End_to_End_Data_Science_Project
 ### Project Overview:
-This project is an end-to-end data science initiative focused on building a machine learning model to predict loan defaults. The main tasks include preprocessing data, training an Artificial Neural Network (ANN), and deploying the model locally for real-time inference.
+This project is an end-to-end data science initiative focused on developing a deep learning model to predict loan defaults. The primary tasks include comprehensive data preprocessing to handle noisy data, detection and removal of outliers, addressing missing values, data stratification, and implementing a custom batch sampler. The model is trained using an Artificial Neural Network (ANN) on MS Azure and deployed locally.
 
 ### Dataset Source:
 The data for this project was sourced from the Freddie Mac website, consisting of two separate datasets: the Loan Origination and Loan Performance files. These datasets provide valuable information on loan details, borrower characteristics, and the performance of loans over time, which were used for model training.
@@ -18,4 +18,4 @@ The goal of this project is to solve a binary classification problem, where the 
 
 ### Key Considerations:
 Class Imbalance: One of the significant challenges in this project was the class imbalance, as there are significantly more non-defaulting loans than defaulting loans. To address this, techniques such as class weighting and data stratification were employed to ensure the model had a balanced representation of both classes during training.
-Computational Limitations: Due to computational constraints, only a subset of the dataset was used for model training. In future work, the model could be improved by leveraging additional computational resources or using cloud-based solutions to train on larger datasets.
+Computational Limitations: Due to computational constraints, only a subset of the dataset was used for model training. In future work, the model could be improved by leveraging additional computational resources.
