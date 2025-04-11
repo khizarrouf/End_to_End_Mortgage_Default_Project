@@ -1,8 +1,8 @@
 datastore:
   # Connection string for accessing the Azure Blob Storage
-  connection_str: 'DefaultEndpointsProtocol=https;AccountName=freddiemac3796368842;AccountKey=Ill/x3zRIZ3Dmmkt0Xf3unrtwmVbZxx8zE9Z6nh52Ag5ZzD0jaV0Zndv7nziJsBXH1F3qJy7zLJe+AStevryIw==;EndpointSuffix=core.windows.net'
+  connection_str: 
   # Name of the container in the Azure Blob Storage
-  container_name: 'azureml-blobstore-77b8f921-69f9-47c4-99b1-e2817b7bae3b'
+  container_name: 
 
 parameters:
   year: '2004'
